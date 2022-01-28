@@ -7,17 +7,17 @@ Button,
   Typography, Pape, Box, Paper, TextField
    
  } from '@material-ui/core';
- import PeopleAltIcon from '@mui/icons-material/PeopleAlt';
  import "../App.css"
  import CheckBoxTwoToneIcon from '@mui/icons-material/CheckBoxTwoTone';
  import CalendarTodayTwoToneIcon from '@mui/icons-material/CalendarTodayTwoTone';
  import PriorityHighTwoToneIcon from '@mui/icons-material/PriorityHighTwoTone';
  import AccessTimeTwoToneIcon from '@mui/icons-material/AccessTimeTwoTone';
- import LocalHospitalTwoToneIcon from '@mui/icons-material/LocalHospitalTwoTone';
- import SavedSearchTwoToneIcon from '@mui/icons-material/SavedSearchTwoTone';
- import ReceiptLongTwoToneIcon from '@mui/icons-material/ReceiptLongTwoTone';
  import { Clock } from "./Clock";
  import { DateToday } from "./DateToday";
+ import DateRangeTwoToneIcon from '@mui/icons-material/DateRange';
+ import AssignmentTwoToneIcon from '@mui/icons-material/AssignmentTwoTone';
+ import WarningTwoToneIcon from '@mui/icons-material/WarningTwoTone';
+
  
 
 function Dashboard() {
@@ -135,7 +135,7 @@ function Dashboard() {
           {openTasks}
       </Typography>
           <div>
-              <PeopleAltIcon
+              <AssignmentTwoToneIcon 
               style={{ fontSize: 50, color:"#3f51b5" }} />
           </div>
      
@@ -159,7 +159,7 @@ function Dashboard() {
 1
       </Typography>
           <div>
-              <LocalHospitalTwoToneIcon
+              <DateRangeTwoToneIcon
               style={{ fontSize: 50, color:"#3f51b5" }} />
           </div>
      
@@ -209,7 +209,7 @@ function Dashboard() {
      {nextMeeting}
         </Typography>
             <div>
-                <ReceiptLongTwoToneIcon
+                <WarningTwoToneIcon
                 style={{ fontSize: 50, color:"#3f51b5" }} />
             </div>
         </Paper>
