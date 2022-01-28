@@ -12,4 +12,6 @@ Start App
 New Terminal => cd server => node server
 New Terminal => cd client => cd todo => cd src => npm start
 
+URL address - web-server http://localhost:3000/. 
+
 Youtube Walkthrough = "TBC"
